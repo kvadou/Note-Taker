@@ -1,7 +1,7 @@
-// GET /api/notes - Should read the db.json file and return all saved notes as JSON. //
-
 const fs = require("fs");
 var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
+
+// GET /api/notes - Should read the db.json file and return all saved notes as JSON. //
 
 module.exports = function (app) {
   app.get("/api/notes", function (req, res) {
@@ -11,6 +11,8 @@ module.exports = function (app) {
   app.get("/api/notes/:id", function (req, res) {
     res.json(data[Number(req.params.id)]);
   });
+
+  // POST /api/notes - Should receive a new note to save on the request body, add it to the db.json file, and then return the new note to the client. //
 
   app.post("/api/notes", function (req, res) {
     let newNote = req.body;
