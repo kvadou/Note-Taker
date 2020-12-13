@@ -20,7 +20,7 @@ The full movie file showing functionality of the application can be found [here]
 
 Screenshot of the completed output:
 
-![DPK completed output](./src/sample.png)
+![DPK Note Screenshot](./src/gif/note.png)
 
 ## Installation
 
