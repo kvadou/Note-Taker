@@ -14,13 +14,13 @@ This is an application that can be used to write, save, and delete notes. This a
 
 Gif showing the functionality of the application:
 
-![DPK Template Engineer Generator](./src/te.gif)
+![DPK Note gif](./src/gif/note.gif)
 
 The full movie file showing functionality of the application can be found [here](./src/te.mp4)
 
 Screenshot of the completed output:
 
-![DPK completed output](./src/sample.png)
+![DPK Note Screenshot](./src/gif/note.png)
 
 ## Installation
 
