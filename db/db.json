@@ -1,2 +1,1 @@
-// The application should have a db.json file on the backend that will be used to store and retrieve notes using the fs module. // 
 [{"title":"Test Title","text":"Test text"},{"title":"New Note","text":"this is a new note","id":"1"},{"title":"Another new note","text":"this is another new note i just made","id":"2"}]
