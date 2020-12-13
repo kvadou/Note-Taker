@@ -1,3 +1,5 @@
+// GET /api/notes - Should read the db.json file and return all saved notes as JSON. //
+
 const fs = require("fs");
 var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 
