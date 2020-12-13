@@ -26,24 +26,12 @@ Screenshot of the completed output:
 
 `npm init`
 
-`npm install inquirer`
-
-`npm install jest`
+`npm install express`
 
 
 ## Usage
 
-Run the following command at the root of your project and you will be prompted with questions:
-
-`node app.js`
-
-Run the following command at the root of your project and you will get the results of the tests:
-
-`npm run test`
-
-Screenshot of the completed tests:
-
-![DPK completed tests](./src/test.png)
+Visit the live website deployed on Heroku here => https://nameless-citadel-09679.herokuapp.com/. 
 
 ## Contributing
 
